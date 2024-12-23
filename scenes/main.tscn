@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bmyvbndtnnduy"]
 
 [ext_resource type="Script" path="res://scripts/Main.cs" id="1_faytn"]
-[ext_resource type="PackedScene" uid="uid://b53cg53le4mue" path="res://gltf/test.glb" id="2_igrg6"]
+[ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5ojd1"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -28,12 +28,12 @@ shadow_enabled = true
 
 [node name="map" type="CSGCombiner3D" parent="."]
 
-[node name="test" parent="map" instance=ExtResource("2_igrg6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
-
 [node name="CSGBox3D" type="CSGBox3D" parent="map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 size = Vector3(20, 1, 20)
+
+[node name="start" parent="map" instance=ExtResource("2_p7q0a")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.538261, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.866026, 0.5, 0, -0.5, 0.866026, 0, 5, 6)
