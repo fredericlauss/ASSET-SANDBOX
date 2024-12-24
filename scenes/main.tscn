@@ -37,7 +37,7 @@ size = Vector3(20, 1, 20)
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.538261, 0)
 
 [node name="road" parent="map" instance=ExtResource("4_0slj1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0486562, -4.5358)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02, -4.536)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0111172, 0.499968, -0.865972, 4.1362e-09, 0.866026, 0.499999, 0.999938, 0.00555854, -0.009628, -2.91027, 1, -4)
