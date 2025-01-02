@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://bmyvbndtnnduy"]
+[gd_scene load_steps=9 format=3 uid="uid://bmyvbndtnnduy"]
 
 [ext_resource type="Script" path="res://scripts/Main.cs" id="1_faytn"]
 [ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
+[ext_resource type="Material" uid="uid://oqvfutc4ctei" path="res://materials/new_standard_material_3d.tres" id="2_w3tjv"]
 [ext_resource type="PackedScene" uid="uid://dbh8dpincsp45" path="res://gltf/road.glb" id="4_0slj1"]
 [ext_resource type="PackedScene" uid="uid://roetgiboulix" path="res://gltf/road_3.glb" id="4_6fks8"]
 
@@ -33,6 +34,7 @@ shadow_enabled = true
 [node name="CSGBox3D" type="CSGBox3D" parent="map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 size = Vector3(20, 1, 20)
+material = ExtResource("2_w3tjv")
 
 [node name="start" parent="map" instance=ExtResource("2_p7q0a")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.538261, 0)
