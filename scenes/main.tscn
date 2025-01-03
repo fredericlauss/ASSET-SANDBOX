@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://bmyvbndtnnduy"]
+[gd_scene load_steps=10 format=3 uid="uid://bmyvbndtnnduy"]
 
 [ext_resource type="Script" path="res://scripts/Main.cs" id="1_faytn"]
 [ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
 [ext_resource type="Material" uid="uid://oqvfutc4ctei" path="res://materials/new_standard_material_3d.tres" id="2_w3tjv"]
 [ext_resource type="PackedScene" uid="uid://dbh8dpincsp45" path="res://gltf/road.glb" id="4_0slj1"]
 [ext_resource type="PackedScene" uid="uid://roetgiboulix" path="res://gltf/road_3.glb" id="4_6fks8"]
+[ext_resource type="PackedScene" uid="uid://bcx1xqlx6873a" path="res://gltf/block.glb" id="6_0xnh2"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_nbn40"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -45,6 +46,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02, -4.536)
 
 [node name="road_3" parent="map" instance=ExtResource("4_6fks8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.65001)
+
+[node name="block" parent="map" instance=ExtResource("6_0xnh2")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.79514, 0, -3.5031)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0111172, 0.499968, -0.865972, 4.1362e-09, 0.866026, 0.499999, 0.999938, 0.00555854, -0.009628, -2.91027, 1, -4)
