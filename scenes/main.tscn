@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://bmyvbndtnnduy"]
+[gd_scene load_steps=14 format=3 uid="uid://bmyvbndtnnduy"]
 
 [ext_resource type="Script" path="res://scripts/Main.cs" id="1_faytn"]
 [ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://cg3mm8pk6ic13" path="res://gltf/block_meh.glb" id="7_bve2y"]
 [ext_resource type="PackedScene" uid="uid://x8s4vy7moq3s" path="res://gltf/block_good.glb" id="8_h3hwr"]
 [ext_resource type="PackedScene" uid="uid://bi4ogbqlcy3il" path="res://gltf/new_good_block.glb" id="9_w1tdq"]
+[ext_resource type="PackedScene" uid="uid://bgj7735bqumw7" path="res://gltf/nice_one.glb" id="10_s8nmt"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_nbn40"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -61,5 +62,8 @@ transform = Transform3D(-0.382618, 0, -0.321875, 0.124208, 0.461272, -0.147648, 
 [node name="new_good_block" parent="map" instance=ExtResource("9_w1tdq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85758, 0, -2.6397)
 
+[node name="nice_one" parent="map" instance=ExtResource("10_s8nmt")]
+transform = Transform3D(1, 0, 0, 0, 0.801734, -0.597681, 0, 0.597681, 0.801734, 0.214081, 1.34773, -2.41208)
+
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.0111172, 0.499968, -0.865972, 4.1362e-09, 0.866026, 0.499999, 0.999938, 0.00555854, -0.009628, -2.91027, 1, -4)
+transform = Transform3D(-0.0107626, 0.267056, -0.963621, -0.00278517, 0.963665, 0.267099, 0.999938, 0.00555858, -0.00962779, -2.91027, 1, -4)
