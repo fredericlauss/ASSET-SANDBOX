@@ -42,7 +42,7 @@ size = Vector3(20, 1, 20)
 material = ExtResource("2_w3tjv")
 
 [node name="start" parent="map" instance=ExtResource("2_p7q0a")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.538261, 0)
+transform = Transform3D(0.5, 0, 0, 0, 0.364998, 0.341726, 0, -0.341726, 0.364998, 0, 0.538261, 0)
 
 [node name="road" parent="map" instance=ExtResource("4_0slj1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02, -4.536)
