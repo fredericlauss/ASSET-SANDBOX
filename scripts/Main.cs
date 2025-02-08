@@ -13,10 +13,12 @@ public partial class Main : Node
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-        Animate();
+        Animate(delta);
     }
-    private void Animate()
+
+    private void Animate(double delta)
     {
-        niceOne.RotationDegrees = new Vector3(45.0f, 0, 0);
+        niceOne.RotateY((float)delta * 1.5f);
+        niceOne.RotateX((float)delta * 0.5f);
     }
 }
