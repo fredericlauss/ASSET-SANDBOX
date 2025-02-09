@@ -19,7 +19,7 @@ public partial class Main : Node
     private void Animate(double delta)
     {
         niceOne.RotateY((float)delta * 1.5f);
-        niceOne.RotateX((float)delta * 0.3f);
-        niceOne.RotateZ((float)delta * 0.1f);
+        niceOne.RotateX((float)delta * 1.5f);
+        niceOne.RotateZ((float)delta * 1.5f);
     }
 }
