@@ -54,13 +54,13 @@ material = ExtResource("2_w3tjv")
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
 
 [node name="road" parent="map" instance=ExtResource("4_0slj1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02, -4.536)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2, -0.02, 0.231403)
 
 [node name="road_3" parent="map" instance=ExtResource("4_6fks8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.35401)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.56847, 0, 0.207823)
 
 [node name="block" parent="map" instance=ExtResource("6_0xnh2")]
-transform = Transform3D(-0.361007, 0, -0.345939, 0.174468, 0.431755, -0.182067, 0.298722, -0.252166, -0.311733, -0.830087, 0.0890941, -4.90792)
+transform = Transform3D(-0.361007, 0, -0.345939, 0.174468, 0.431755, -0.182067, 0.298722, -0.252166, -0.311733, -0.830087, 0.0890941, -0.90792)
 
 [node name="block_meh" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(0.309628, -0.091032, -0.381895, 0.0573302, 0.491643, -0.0707111, 0.388386, 0, 0.314891, 0, -0.0822741, -6.0515)
@@ -75,4 +75,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85758, 0, -2.6397)
 transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 1.82812, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.0107626, 0.267056, -0.963621, -0.00278517, 0.963665, 0.267099, 0.999938, 0.00555853, -0.00962775, -4.22199, 2.59148, -2.3)
+transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962775, -4.22199, 2.59148, 5.96046e-08)
