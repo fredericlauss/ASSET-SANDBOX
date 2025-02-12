@@ -7,7 +7,7 @@ public partial class Main : Node
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
 	{
-        niceOne = GetNode<Node3D>("map/nice_one");
+        niceOne = GetNode<Node3D>("map/Node3D");
     }
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
