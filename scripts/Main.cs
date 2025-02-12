@@ -18,6 +18,6 @@ public partial class Main : Node
 
     private void Animate(double delta)
     {
-        niceOne.RotationDegrees += new Vector3(45.0f, 90.0f, 90.0f) * (float)delta;
+        niceOne.RotationDegrees += new Vector3(45.0f, 45.0f, 45.0f) * (float)delta;
     }
 }
