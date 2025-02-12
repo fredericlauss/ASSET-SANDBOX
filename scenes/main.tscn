@@ -72,7 +72,10 @@ transform = Transform3D(-3.82618, -3.12924e-06, -3.21875, 1.24208, 4.61272, -1.4
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85758, 0, -2.6397)
 
 [node name="nice_one" parent="map" instance=ExtResource("10_s8nmt")]
-transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 1.61038, 0)
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 1.60793, 0)
+
+[node name="nice_one2" parent="map" instance=ExtResource("10_s8nmt")]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 1.60793, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962775, -3.53899, 2.28734, 5.96046e-08)
