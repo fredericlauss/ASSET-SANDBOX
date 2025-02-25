@@ -1,4 +1,4 @@
-using Godot;
+﻿using Godot;
 using System;
 
 public partial class Main : Node
@@ -14,7 +14,7 @@ public partial class Main : Node
         AddChild(niceOne);
         pivot.AddChild(niceOne);
 
-        // Assure-toi que niceOne est bien centr� dans son parent
+        // Assure-toi que niceOne est bien centré dans son parent
         niceOne.Position = Vector3.Zero;
     }
 
