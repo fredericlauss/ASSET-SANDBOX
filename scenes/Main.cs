@@ -3,13 +3,31 @@ using System;
 
 public partial class Main : Node
 {
-	// Called when the node enters the scene tree for the first time.
-	public override void _Ready()
-	{
-	}
+    // Called when the node enters the scene tree for the first time.
+    private Node3D niceOne;
+    private Node3D pivot;
+    // Called when the node enters the scene tree for the first time.
+    public override void _Ready()
+    {
+        niceOne = GetNode<Node3D>("map/Node3D");
+        pivot = new Node3D();
+        AddChild(niceOne);
+        pivot.AddChild(niceOne);
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
+        // Assure-toi que niceOne est bien centré dans son parent
+        niceOne.Position = Vector3.Zero;
+    }
+
+    // Called every frame. 'delta' is the elapsed time since the previous frame.
+    public override void _Process(double delta)
+    {
+        Animate(delta);
+    }
+
+    private void Animate(double delta)
+    {
+        niceOne.RotateX(Mathf.DegToRad(45.0f * (float)delta));
+        niceOne.RotateY(Mathf.DegToRad(45.0f * (float)delta));
+        niceOne.RotateZ(Mathf.DegToRad(45.0f * (float)delta));
+    }
 }
