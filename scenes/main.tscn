@@ -1,6 +1,5 @@
-[gd_scene load_steps=14 format=3 uid="uid://bmyvbndtnnduy"]
+[gd_scene load_steps=13 format=3 uid="uid://bmyvbndtnnduy"]
 
-[ext_resource type="Script" path="res://scripts/Main.cs" id="1_faytn"]
 [ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
 [ext_resource type="Material" uid="uid://oqvfutc4ctei" path="res://materials/new_standard_material_3d.tres" id="2_w3tjv"]
 [ext_resource type="PackedScene" uid="uid://dbh8dpincsp45" path="res://gltf/road.glb" id="4_0slj1"]
@@ -25,7 +24,6 @@ tonemap_mode = 2
 glow_enabled = true
 
 [node name="world" type="Node3D"]
-script = ExtResource("1_faytn")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_j3quh")
@@ -75,7 +73,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85758, 0, -2.6397)
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 
 [node name="nice_one2" parent="map/Node3D" instance=ExtResource("10_s8nmt")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, 0, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962775, -3.53899, 2.28734, 5.96046e-08)
