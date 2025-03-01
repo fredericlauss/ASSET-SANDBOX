@@ -77,13 +77,13 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 [node name="nice_one2" parent="map/Node3D" instance=ExtResource("10_s8nmt")]
 
 [node name="road2" parent="map" instance=ExtResource("4_0slj1")]
-transform = Transform3D(0.145772, 0, -0.989318, 0, 1, 0, 0.989318, 0, 0.145772, 0.537703, -0.08, 4.80625)
+transform = Transform3D(0.145772, 0, -0.989318, 0, 1, 0, 0.989318, 0, 0.145772, 0.537703, 0.00163953, 4.80625)
 
 [node name="road3" parent="map" instance=ExtResource("4_0slj1")]
-transform = Transform3D(-0.995248, 0, -0.0973745, 0, 1, 0, 0.0973745, 0, -0.995248, 0.26386, -0.06, 3.22136)
+transform = Transform3D(-0.995248, 0, -0.0973745, 0, 1, 0, 0.0973745, 0, -0.995248, 0.26386, 0.00153083, 3.22136)
 
 [node name="road4" parent="map" instance=ExtResource("4_0slj1")]
-transform = Transform3D(-0.0487452, 0, 0.998811, 0, 1, 0, -0.998811, 0, -0.0487452, 0.19555, -0.04, 1.40133)
+transform = Transform3D(-0.0487452, 0, 0.998811, 0, 1, 0, -0.998811, 0, -0.0487452, 0.19555, 0.00794669, 1.40133)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962775, -3.53899, 2.28734, 5.96046e-08)
