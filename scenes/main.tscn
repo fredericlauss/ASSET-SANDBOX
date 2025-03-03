@@ -47,7 +47,7 @@ shadow_enabled = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
-size = Vector3(20, 1, 20)
+size = Vector3(40, 1, 40)
 material = ExtResource("2_w3tjv")
 
 [node name="start" parent="map" instance=ExtResource("2_p7q0a")]
@@ -84,6 +84,12 @@ transform = Transform3D(-0.995248, 0, -0.0973745, 0, 1, 0, 0.0973745, 0, -0.9952
 
 [node name="road4" parent="map" instance=ExtResource("4_0slj1")]
 transform = Transform3D(-0.0487452, 0, 0.998811, 0, 1, 0, -0.998811, 0, -0.0487452, 0.19555, 0.00794669, 1.40133)
+
+[node name="block_meh2" parent="map" instance=ExtResource("7_bve2y")]
+transform = Transform3D(-1.02156, -3.48451, -1.67768, -0.333432, 1.80812, -3.5524, 3.85294, -0.767392, -0.752239, 12.9839, 0.101073, -4.88685)
+
+[node name="block_good2" parent="map" instance=ExtResource("8_h3hwr")]
+transform = Transform3D(5.08176, 6.21041, 23.6771, -3.4074, 24.126, -5.59684, -24.2397, -2.08941, 5.75056, 28.9777, -6.11678, 9.23326)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962775, -3.53899, 2.28734, 5.96046e-08)
