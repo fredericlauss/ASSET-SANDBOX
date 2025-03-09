@@ -14,7 +14,6 @@ public partial class Main : Node
     {
         niceOne = GetNode<Node3D>("map/Node3D/nice_one2");
         lightOne = GetNode<SpotLight3D>("SpotLight3D");
-        // Assure-toi que niceOne est bien centré dans son parent
         niceOne.Position = Vector3.Zero;
     }
 
@@ -30,7 +29,6 @@ public partial class Main : Node
         niceOne.RotateY(Mathf.DegToRad(90.0f * (float)delta));
         niceOne.RotateZ(Mathf.DegToRad(90.0f * (float)delta));
 
-        // Calcul de l'angle avec va-et-vient
         float rotationSpeed = 45.0f * (float)delta;
         if (!isReversing)
         {
