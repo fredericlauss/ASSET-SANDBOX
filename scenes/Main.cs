@@ -50,5 +50,6 @@ public partial class Main : Node
         }
         
         lightOne.RotateX(Mathf.DegToRad(rotationSpeed * (isReversing ? -1 : 1)));
+        lightOne.RotateY(Mathf.DegToRad(25.0f * (float)delta));
     }
 }
