@@ -95,7 +95,7 @@ transform = Transform3D(-24.4235, -2.336, 4.79948, -3.4074, 24.126, -5.59684, -4
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962775, -3.53899, 2.28734, 5.96046e-08)
 
 [node name="SpotLight3D2" type="SpotLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -0.539153, 0.842208, 0, -0.842208, -0.539153, -0.00962472, 4.72586, -5.32155)
+transform = Transform3D(1, 0, 0, 0, -0.888024, 0.459797, 0, -0.459797, -0.888024, -0.00962472, 2.72586, -3.32155)
 light_color = Color(0.462745, 1, 1, 1)
 light_energy = 16.0
 light_volumetric_fog_energy = 12.96
@@ -103,7 +103,7 @@ light_size = 10.0
 shadow_enabled = true
 
 [node name="SpotLight3D3" type="SpotLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.587941, 0.808904, 0, -0.808904, 0.587941, -0.0192494, 2.44468, 4.1065)
+transform = Transform3D(1, 0, 0, 0, 0.998791, -0.0491635, 0, 0.0491635, 0.998791, -0.0192494, 1.54201, 4.1065)
 light_color = Color(0.462745, 1, 1, 1)
 light_energy = 16.0
 light_volumetric_fog_energy = 12.96
