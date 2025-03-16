@@ -101,3 +101,11 @@ light_energy = 16.0
 light_volumetric_fog_energy = 12.96
 light_size = 10.0
 shadow_enabled = true
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.587941, 0.808904, 0, -0.808904, 0.587941, -0.0192494, 2.44468, 4.1065)
+light_color = Color(0.462745, 1, 1, 1)
+light_energy = 16.0
+light_volumetric_fog_energy = 12.96
+light_size = 10.0
+shadow_enabled = true
