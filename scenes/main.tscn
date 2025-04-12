@@ -75,6 +75,7 @@ transform = Transform3D(0.824472, -0.565903, 0, 0.502853, 0.732614, -0.458712, 0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 
 [node name="nice_one2" parent="map/Node3D" instance=ExtResource("10_s8nmt")]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 0, 0)
 
 [node name="road2" parent="map" instance=ExtResource("4_0slj1")]
 transform = Transform3D(0.145772, 0, -0.989318, 0, 1, 0, 0.989318, 0, 0.145772, 0.537703, 0.00163953, 4.80625)
