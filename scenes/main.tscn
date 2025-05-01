@@ -67,7 +67,7 @@ transform = Transform3D(-3.82618, -3.12924e-06, -3.21875, 1.24208, 4.61272, -1.4
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 
 [node name="nice_one2" parent="map/Node3D" instance=ExtResource("10_s8nmt")]
-transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 0, 0)
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 2, 0)
 
 [node name="block_meh2" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(-1.02156, -3.48451, -1.67768, -0.333432, 1.80812, -3.5524, 3.85294, -0.767392, -0.752239, 12.9839, 0.101073, -4.88685)
