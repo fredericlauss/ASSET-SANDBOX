@@ -35,7 +35,7 @@ public partial class Main : Node
             currentAngle += rotationSpeed;
             if (currentAngle >= 35.0f)
             {
-                currentAngle = 35.0f;
+                currentAngle = 30.0f;
                 isReversing = true;
             }
         }
