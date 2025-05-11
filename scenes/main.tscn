@@ -30,6 +30,7 @@ environment = SubResource("Environment_j3quh")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+light_energy = 0.5
 shadow_enabled = true
 
 [node name="SpotLight3DD" type="SpotLight3D" parent="."]
@@ -76,9 +77,6 @@ transform = Transform3D(-24.4235, -2.336, 4.79948, -3.4074, 24.126, -5.59684, -4
 
 [node name="road_4" parent="map" instance=ExtResource("4_6fks8")]
 transform = Transform3D(-0.0310095, 0, 0.999519, 0, 1, 0, -0.999519, 0, -0.0310095, -4.25159, 0, 0.263643)
-
-[node name="road_5" parent="map" instance=ExtResource("4_6fks8")]
-transform = Transform3D(0.0471588, 0, 0.998886, 0, 1, 0, -0.998886, 0, 0.0471588, -4.27272, 0, -2.30019)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -4.1271, 2.28734, 5.96046e-08)
