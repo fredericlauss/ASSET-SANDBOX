@@ -52,7 +52,7 @@ material = ExtResource("2_w3tjv")
 transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0.151893, 0)
 
 [node name="block" parent="map" instance=ExtResource("6_0xnh2")]
-transform = Transform3D(-0.613712, -2.27988e-07, -0.588096, 0.296596, 0.733984, -0.309515, 0.507827, -0.428682, -0.529947, 1.80522, -0.095211, -2.04162)
+transform = Transform3D(-0.722014, 2.68221e-07, -0.691878, 0.348937, 0.86351, -0.364135, 0.597444, -0.504332, -0.623466, 1.80522, -0.095211, -2.04162)
 
 [node name="block_meh" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(1.22054, -0.493964, -1.50542, 0.311089, 1.93804, -0.383698, 1.55354, 4.32134e-07, 1.25956, 7.51369, -0.0822741, 0.282803)
