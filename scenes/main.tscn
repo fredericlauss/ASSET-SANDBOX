@@ -69,8 +69,11 @@ transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -4.66695, 2, 0)
 [node name="block_meh2" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(-1.02156, -3.48451, -1.67768, -0.333432, 1.80812, -3.5524, 3.85294, -0.767392, -0.752239, 12.3108, 0.101073, -4.88685)
 
-[node name="block_good2" parent="map" instance=ExtResource("8_h3hwr")]
-transform = Transform3D(-24.4235, -2.336, 4.79948, -3.4074, 24.126, -5.59684, -4.10872, -6.12192, -23.8881, 37.8656, -19.1435, 9.23326)
+[node name="block_good3" parent="map" instance=ExtResource("8_h3hwr")]
+transform = Transform3D(293.208, -13.0364, -62.1205, 11.5246, 299.658, -8.48915, 62.4185, 5.91057, 293.376, 283.655, -352.797, 255.726)
+
+[node name="block_good2" parent="map/block_good3" instance=ExtResource("8_h3hwr")]
+transform = Transform3D(-0.0390776, -0.00545182, -0.00657396, -0.00373763, 0.0386017, -0.00979509, 0.00767916, -0.00895493, -0.0382209, -0.742525, -0.311731, 0.613396)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -7.17214, 2.28734, 5.96046e-08)
