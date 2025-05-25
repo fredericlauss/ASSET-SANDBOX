@@ -28,7 +28,7 @@ script = ExtResource("1_jgijl")
 environment = SubResource("Environment_j3quh")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, -2.33347, 0, 0)
 light_energy = 0.5
 shadow_enabled = true
 
@@ -49,7 +49,7 @@ size = Vector3(40, 1, 40)
 material = ExtResource("2_w3tjv")
 
 [node name="start" parent="map" instance=ExtResource("2_p7q0a")]
-transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0.151893, 0)
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, -2.33347, 0.151893, 0)
 
 [node name="block" parent="map" instance=ExtResource("6_0xnh2")]
 transform = Transform3D(-0.722014, 2.68221e-07, -0.691878, 0.348937, 0.86351, -0.364135, 0.597444, -0.504332, -0.623466, 1.80522, -0.095211, -2.04162)
@@ -64,7 +64,7 @@ transform = Transform3D(-3.82618, -3.12924e-06, -3.21875, 1.24208, 4.61272, -1.4
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 
 [node name="nice_one2" parent="map/Node3D" instance=ExtResource("10_s8nmt")]
-transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 2, 0)
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -4.66695, 2, 0)
 
 [node name="block_meh2" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(-1.02156, -3.48451, -1.67768, -0.333432, 1.80812, -3.5524, 3.85294, -0.767392, -0.752239, 12.3108, 0.101073, -4.88685)
@@ -73,4 +73,4 @@ transform = Transform3D(-1.02156, -3.48451, -1.67768, -0.333432, 1.80812, -3.552
 transform = Transform3D(-24.4235, -2.336, 4.79948, -3.4074, 24.126, -5.59684, -4.10872, -6.12192, -23.8881, 37.8656, -19.1435, 9.23326)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -4.1271, 2.28734, 5.96046e-08)
+transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -7.17214, 2.28734, 5.96046e-08)
