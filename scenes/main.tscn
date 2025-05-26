@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bmyvbndtnnduy"]
+[gd_scene load_steps=12 format=3 uid="uid://bmyvbndtnnduy"]
 
 [ext_resource type="Script" path="res://scenes/Main.cs" id="1_jgijl"]
 [ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bcx1xqlx6873a" path="res://gltf/block.glb" id="6_0xnh2"]
 [ext_resource type="PackedScene" uid="uid://cg3mm8pk6ic13" path="res://gltf/block_meh.glb" id="7_bve2y"]
 [ext_resource type="PackedScene" uid="uid://x8s4vy7moq3s" path="res://gltf/block_good.glb" id="8_h3hwr"]
+[ext_resource type="PackedScene" uid="uid://roetgiboulix" path="res://gltf/road_3.glb" id="8_ufqwb"]
 [ext_resource type="PackedScene" uid="uid://bgj7735bqumw7" path="res://gltf/nice_one.glb" id="10_s8nmt"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_nbn40"]
@@ -45,14 +46,14 @@ spot_attenuation = 0.5
 
 [node name="CSGBox3D" type="CSGBox3D" parent="map"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
-size = Vector3(40, 1, 40)
+size = Vector3(4000, 1, 4000)
 material = ExtResource("2_w3tjv")
 
 [node name="start" parent="map" instance=ExtResource("2_p7q0a")]
 transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, -2.33347, 0.151893, 0)
 
 [node name="block" parent="map" instance=ExtResource("6_0xnh2")]
-transform = Transform3D(-0.722014, 2.68221e-07, -0.691878, 0.348937, 0.86351, -0.364135, 0.597444, -0.504332, -0.623466, 1.80522, -0.095211, -2.04162)
+transform = Transform3D(-0.480983, -0.298536, -0.824337, -0.0109776, 0.942217, -0.334822, 0.876661, -0.151995, -0.456468, 1.63259, 1.50715, 0.174202)
 
 [node name="block_meh" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(1.22054, -0.493964, -1.50542, 0.311089, 1.93804, -0.383698, 1.55354, 4.32134e-07, 1.25956, 7.51369, -0.0822741, 0.282803)
@@ -64,16 +65,16 @@ transform = Transform3D(-3.82618, -3.12924e-06, -3.21875, 1.24208, 4.61272, -1.4
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 
 [node name="nice_one2" parent="map/Node3D" instance=ExtResource("10_s8nmt")]
-transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -4.66695, 2, 0)
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -4.66695, 2.38419e-07, 0)
 
 [node name="block_meh2" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(-1.02156, -3.48451, -1.67768, -0.333432, 1.80812, -3.5524, 3.85294, -0.767392, -0.752239, 12.3108, 0.101073, -4.88685)
 
-[node name="block_good3" parent="map" instance=ExtResource("8_h3hwr")]
-transform = Transform3D(293.208, -13.0364, -62.1205, 11.5246, 299.658, -8.48915, 62.4185, 5.91057, 293.376, 283.655, -352.797, 255.726)
+[node name="road_3" parent="map" instance=ExtResource("8_ufqwb")]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 33.4801, -79.8964)
 
-[node name="block_good2" parent="map/block_good3" instance=ExtResource("8_h3hwr")]
-transform = Transform3D(-0.0390776, -0.00545182, -0.00657396, -0.00373763, 0.0386017, -0.00979509, 0.00767916, -0.00895493, -0.0382209, -0.742525, -0.311731, 0.613396)
+[node name="road_4" parent="map" instance=ExtResource("8_ufqwb")]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 33.4801, 1.88254)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -7.17214, 2.28734, 5.96046e-08)
