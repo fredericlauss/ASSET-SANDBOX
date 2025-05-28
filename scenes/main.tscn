@@ -53,13 +53,13 @@ material = ExtResource("2_w3tjv")
 transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, -2.33347, 0.151893, 0)
 
 [node name="block" parent="map" instance=ExtResource("6_0xnh2")]
-transform = Transform3D(-0.480983, -0.298536, -0.824337, -0.0109776, 0.942217, -0.334822, 0.876661, -0.151995, -0.456468, 1.63259, 1.50715, 0.174202)
+transform = Transform3D(-0.961966, -0.597073, -1.64867, -0.0219552, 1.88443, -0.669644, 1.75332, -0.303989, -0.912936, 4.63259, 0.50715, 0.174202)
 
 [node name="block_meh" parent="map" instance=ExtResource("7_bve2y")]
 transform = Transform3D(1.22054, -0.493964, -1.50542, 0.311089, 1.93804, -0.383698, 1.55354, 4.32134e-07, 1.25956, 7.51369, -0.0822741, 0.282803)
 
 [node name="block_good" parent="map" instance=ExtResource("8_h3hwr")]
-transform = Transform3D(-3.82618, -3.12924e-06, -3.21875, 1.24208, 4.61272, -1.47649, 2.96944, -1.92945, -3.52982, 8.11432, 0.798718, 8.55954)
+transform = Transform3D(-4.2088, -4.99934e-06, -3.54062, 1.36629, 5.074, -1.62414, 3.26639, -2.1224, -3.8828, 8.11432, 0.798718, 8.55954)
 
 [node name="Node3D" type="Node3D" parent="map"]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
@@ -68,7 +68,7 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.49098, 0)
 transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -4.66695, 2.38419e-07, 0)
 
 [node name="block_meh2" parent="map" instance=ExtResource("7_bve2y")]
-transform = Transform3D(-0.766172, -2.61338, -1.25826, -0.250075, 1.35609, -2.6643, 2.88971, -0.57555, -0.56418, 12.3108, 0.101073, -4.88685)
+transform = Transform3D(-1.53234, -5.22676, -2.51652, -0.500149, 2.71218, -5.3286, 5.77943, -1.1511, -1.12836, 12.3108, 0.101073, -4.88685)
 
 [node name="road_3" parent="map" instance=ExtResource("8_ufqwb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.4801, -79.8964)
