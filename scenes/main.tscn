@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://bmyvbndtnnduy"]
+[gd_scene load_steps=13 format=3 uid="uid://bmyvbndtnnduy"]
 
 [ext_resource type="Script" path="res://scenes/Main.cs" id="1_jgijl"]
 [ext_resource type="PackedScene" uid="uid://dknlad56e8ivk" path="res://gltf/start.glb" id="2_p7q0a"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://cg3mm8pk6ic13" path="res://gltf/block_meh.glb" id="7_bve2y"]
 [ext_resource type="PackedScene" uid="uid://x8s4vy7moq3s" path="res://gltf/block_good.glb" id="8_h3hwr"]
 [ext_resource type="PackedScene" uid="uid://roetgiboulix" path="res://gltf/road_3.glb" id="8_ufqwb"]
+[ext_resource type="PackedScene" uid="uid://dbh8dpincsp45" path="res://gltf/road.glb" id="9_y3iki"]
 [ext_resource type="PackedScene" uid="uid://bgj7735bqumw7" path="res://gltf/nice_one.glb" id="10_s8nmt"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_nbn40"]
@@ -75,6 +76,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.4801, -79.8964)
 
 [node name="road_4" parent="map" instance=ExtResource("8_ufqwb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.4801, 1.88254)
+
+[node name="road" parent="map" instance=ExtResource("9_y3iki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3885, 0, -7.68381)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -7.17214, 2.28734, 5.96046e-08)
