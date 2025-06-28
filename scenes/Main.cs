@@ -29,7 +29,7 @@ public partial class Main : Node
         niceOne.RotateY(Mathf.DegToRad(45.0f * (float)delta));
         niceOne.RotateZ(Mathf.DegToRad(45.0f * (float)delta));
 
-        float rotationSpeed = 15.0f * (float)delta;
+        float rotationSpeed = 30.0f * (float)delta;
         if (!isReversing)
         {
             currentAngle += rotationSpeed;
