@@ -76,5 +76,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.4801, -79.8964)
 [node name="road_4" parent="map" instance=ExtResource("8_ufqwb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.4801, 1.88254)
 
+[node name="block_meh3" parent="map" instance=ExtResource("7_bve2y")]
+transform = Transform3D(-26.6162, -9.08331, 95.9639, -87.1842, 44.7327, -19.947, -41.1155, -88.9745, -19.8254, 198.296, 48.3225, -41.0133)
+
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.0109342, 0.335289, -0.942052, -0.00200835, 0.942099, 0.335329, 0.999938, 0.00555853, -0.00962772, -7.17214, 2.28734, 5.96046e-08)
